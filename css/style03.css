@@ -1,0 +1,54 @@
+.wrap {
+    width: 900px;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+.header {
+    padding: 16px 0;
+}
+.header h1 {
+    font-size: 32px;
+    margin-bottom: 32px;
+    font-weight: bold;
+}
+.header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+}
+.container {
+    padding: 24px 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #A6E0E0;
+}
+.container p {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 24px;
+    text-indent: 40px;
+}
+.container span {
+    color: #cd5e3c;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.container a {
+    width: 120px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #000000;
+    /* display: block; */
+    text-align: center;
+    text-decoration: none;
+    padding: 12px 0;
+    /* margin-left: auto; */
+}
+.container a:hover {
+    background: #cd5e3c;
+}
+.test {
+    display: flex;
+    justify-content: flex-end;
+}
+
