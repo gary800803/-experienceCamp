@@ -1,0 +1,55 @@
+.wrap {
+    width: 1296px;
+    margin: 0 auto;
+    font-family: "Noto Sans","Noto Sans TC", sans-serif;
+}
+.wrap .carGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.wrap .carGroup .items {
+    width: 636px;
+    margin-bottom: 75px;
+}
+.wrap .carGroup .items .photo {
+    border-radius: 8px;
+    border: 1px solid #F1F1F1;
+}
+.wrap .carGroup .items .p-16 .title {
+    font-size: 28px;
+    color: #3b3b3b;
+    font-weight: 700;
+    line-height: 33.6px;
+    margin-bottom: 8px;
+}
+.wrap .carGroup .items .p-16 .text {
+    font-size: 16px;
+    color: #919191;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.wrap .carGroup .items .p-16 .footer {
+    font-size: 16px;
+    color: #3b3b3b;
+    line-height: 24px;
+    display: flex;
+}
+.wrap .carGroup .items .p-16 .footer a {
+    display: block;
+    background: #f1f1f1;
+    line-height: 24px;
+    font-weight: 400;
+    border-radius: 16px;
+    padding: 4px 12px;
+    color: #3b3b3b;
+    text-decoration: none;
+}
+.wrap .carGroup .items .p-16 .footer .mr-16 {
+    margin-right: 16px;
+}
+.wrap .carGroup .items .p-16 {
+    padding-top: 16px;
+    padding-left: 16px;
+}
