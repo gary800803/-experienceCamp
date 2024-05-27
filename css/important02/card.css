@@ -1,0 +1,105 @@
+.wrap .carGroup {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.wrap .carGroup .items {
+    width: 49.7%;
+    margin-bottom: 75px;
+}
+.wrap .carGroup .items .photo {
+    border-radius: 8px;
+    border: 1px solid #F1F1F1;
+}
+.wrap .carGroup .items .p-16 .titleCard {
+    font-size: 28px;
+    color: #3b3b3b;
+    font-weight: 700;
+    line-height: 33.6px;
+    margin-bottom: 8px;
+}
+.wrap .carGroup .items .p-16 .text {
+    font-size: 16px;
+    color: #919191;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.wrap .carGroup .items .p-16 .footer {
+    font-size: 16px;
+    color: #3b3b3b;
+    line-height: 24px;
+    display: flex;
+}
+.wrap .carGroup .items .p-16 .footer li a {
+    display: block;
+    background: #f1f1f1;
+    line-height: 24px;
+    font-weight: 400;
+    border-radius: 16px;
+    padding: 4px 12px;
+    color: #3b3b3b;
+    text-decoration: none;
+}
+.wrap .carGroup .items .p-16 .footer .mr-16 {
+    margin-right: 16px;
+}
+.wrap .carGroup .items .p-16 {
+    padding-top: 16px;
+    padding-left: 16px;
+}
+.page {
+    display: flex;
+    justify-content: center;
+    margin-top: 72px;
+    margin-bottom: 120px;;
+}
+.page__item {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #3B3B3B;
+    padding: 2px 13px;
+    width: 40px;
+    height: 40px;
+}
+.page__item:nth-of-type(1), .page__item:nth-of-type(2) {
+    margin-right: 16px;
+}
+.page__item:nth-of-type(1) {
+    background-color: #1E1E1E;
+    border-radius: 4px;
+    color: #fff;
+}
+
+@media (max-width: 375px) {
+    .carGroup {
+        flex-wrap: wrap;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .wrap .carGroup .items {
+        width: 100%;
+    }
+    .wrap .carGroup .items .photo {
+        width: 100%;
+    }
+    .wrap .carGroup .items .p-16 .titleCard {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+    .wrap .carGroup .items .p-16 .footer {
+        width: 100%;
+    }
+    .wrap .carGroup .items .p-16 {
+        padding-right: 16px;
+    }
+    .wrap .carGroup .items .p-16 .footer .mr-16 {
+        margin-right: 8px;
+    }
+    
+}
