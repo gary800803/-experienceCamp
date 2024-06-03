@@ -10,6 +10,7 @@
     margin-bottom: 75px;
 }
 .wrap .carGroup .items .photo {
+    width: 100%;
     border-radius: 8px;
     border: 1px solid #F1F1F1;
 }
@@ -21,14 +22,11 @@
     margin-bottom: 8px;
 }
 .wrap .carGroup .items .p-16 .text {
-    font-size: 16px;
     color: #919191;
-    font-weight: 400;
     line-height: 24px;
     margin-bottom: 24px;
 }
 .wrap .carGroup .items .p-16 .footer {
-    font-size: 16px;
     color: #3b3b3b;
     line-height: 24px;
     display: flex;
@@ -37,7 +35,6 @@
     display: block;
     background: #f1f1f1;
     line-height: 24px;
-    font-weight: 400;
     border-radius: 16px;
     padding: 4px 12px;
     color: #3b3b3b;
@@ -58,7 +55,6 @@
 }
 .page__item {
     font-size: 24px;
-    font-weight: 400;
     line-height: 36px;
     color: #3B3B3B;
     padding: 2px 13px;

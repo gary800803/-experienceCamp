@@ -9,7 +9,6 @@
 .banner__title {
     font-size: 24px;
     line-height: 28.8px;
-    font-weight: 400;
     color: #1E1E1E;
 }
 .banner__title:nth-of-type(1) {
@@ -29,18 +28,14 @@
 }
 .banner__info__items span {
     display: block;
-    font-size: 16px;
     line-height: 24px;
-    font-weight: 400px;
     text-align: center;
     color: #5B5B5B;
     margin-bottom: 12px;
 }
 
 .banner__info__items p {
-    font-size: 16px;
     line-height: 24px;
-    font-weight: 400px;
     text-align: center;
     color: #3B3B3B;
 }
